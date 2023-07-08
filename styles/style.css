@@ -1,0 +1,48 @@
+/* common shared styles  */
+*{
+    margin: 0; padding: 0;
+}
+.text-primary{
+    color:#FD6E0A ;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pirata One', ;
+}
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+color: #FFF;
+padding: 18px 35px;
+font-size: 20px;font-weight: 700;
+border: 0; 
+}
+
+/* nav styles  */
+nav{
+     display: flex;
+     justify-content: space-between;
+     margin: 50px 230px 0;
+}
+nav li{
+    list-style: none;}
+.navli{
+      padding-right: 85px;
+}
+.navli a{
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 400;    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+}
+nav h3{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
