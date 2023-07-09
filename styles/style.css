@@ -31,6 +31,13 @@ text-align: center;
 font-size: 35px;
 font-weight: 700;
 }
+.about-des, .what-des{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin:30px 160px 30px;
+}
 
 /* nav styles  */
 nav{
@@ -112,16 +119,10 @@ padding-bottom: 20px;
 /* about sectin styles */
 .about{
     margin: 130px 230px 0px;
-    background: #fbe5d8;
+    background: #ffefe6;
+}
 
-}
-.about-des{
-    color:  #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-padding:30px 160px 30;
-}
+
 .about-info{
     display: flex;
     justify-content: space-around;
@@ -143,3 +144,33 @@ text-align: center;
 font-size: 20px;
 font-weight: 700;
 }
+
+
+/* what i do section  */
+.what-i-do{
+    margin: 130px 230px 0px;
+    /* background: #ffefe6; */
+}
+.all-skills{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px;
+    /* border: 1px solid black; */
+}
+.skill{
+    margin-right: 24px;
+    padding: 30px;
+    box-shadow:1px 1px  10px;
+}
+.skill-img{
+    width: 44px;
+height: 44px;
+padding-bottom: 20px;
+}
+.skill-title{
+    color: #181818;
+/* text-align: center; */
+font-size: 20px;
+font-weight: 700;
+padding-bottom: 20px;}
+
