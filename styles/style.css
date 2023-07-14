@@ -28,13 +28,13 @@ header{
 .section-title{
     color:  #181818;
 text-align: center;
-font-size: 35px;
+font-size: 30px;
 font-weight: 700;
 }
 .about-des, .what-des{
     color:  #757575;
 text-align: center;
-font-size: 18px;
+font-size: 13px;
 font-weight: 400;
 margin:30px 160px 30px;
 }
@@ -148,31 +148,34 @@ font-weight: 700;
 
 /* what i do section  */
 .what-i-do{
-    margin: 130px 230px 0px;
-    /* background: #ffefe6; */
+    margin: 130px 150px 0px;
 }
 .all-skills{
     display: flex;
     justify-content: space-around;
     box-shadow: 10px;
     background-color: azure;
+    gap: 20px;
 }
 .skill{
-    margin-right: 24px;
-    padding: 30px;
+
+    padding: 10px;
     box-shadow:1px 1px  10px;
     background-color: white;
 }
 .skill-img{
-    width: 44px;
-height: 44px;
-padding-bottom: 20px;
+    width: 35px;
+height: 35px;
+padding-bottom: 10px;
 }
 .skill-title{
     color: #181818;
-    font-size: 20px;
+    font-size: 18px;
 font-weight: 700;
 padding-bottom: 20px;}
+.skill-des{
+    font-size: 13px;
+}
 
 
 
@@ -281,4 +284,26 @@ width: 100%;
     color:  #757575;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .all-skills, .colum-container{
+     flex-direction: column;
+    }
+    .what-i-do{
+        margin: 50px 20px;
+    }
+    .what-des , .colum-container{
+        margin: 30px 0 20px;
+    }
+    .colum{
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
 }
